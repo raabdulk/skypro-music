@@ -1,6 +1,7 @@
 import AudioPlayer from "./components/AudioPlayer";
 import NavMenu from "./components/NavMenu";
 import PlayList from "./components/PlayList";
+import Track from "./components/Track";
 
 function Index() {
   return (
@@ -43,38 +44,7 @@ function Index() {
                 </div>
               </div>
               <div className="content__playlist playlist">
-                <div className="playlist__item">
-                  <div className="playlist__track track">
-                    <div className="track__title">
-                      <div className="track__title-image">
-                        <svg className="track__title-svg" alt="music">
-                          <use xlinkHref="img/icon/sprite.svg#icon-note"></use>
-                        </svg>
-                      </div>
-                      <div className="track__title-text">
-                        <a className="track__title-link" xlinkHref="http://">
-                          Guilt <span className="track__title-span"></span>
-                        </a>
-                      </div>
-                    </div>
-                    <div className="track__author">
-                      <a className="track__author-link" xlinkHref="http://">
-                        Nero
-                      </a>
-                    </div>
-                    <div className="track__album">
-                      <a className="track__album-link" xlinkHref="http://">
-                        Welcome Reality
-                      </a>
-                    </div>
-                    <div className="track__time">
-                      <svg className="track__time-svg" alt="time">
-                        <use xlinkHref="img/icon/sprite.svg#icon-like"></use>
-                      </svg>
-                      <span className="track__time-text">4:44</span>
-                    </div>
-                  </div>
-                </div>
+                <Track />
 
                 <div className="playlist__item">
                   <div className="playlist__track track">
