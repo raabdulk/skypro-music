@@ -1,5 +1,6 @@
 import AudioPlayer from "./components/AudioPlayer";
 import NavMenu from "./components/NavMenu";
+import PlayList from "./components/PlayList";
 
 function Index() {
   return (
@@ -625,15 +626,7 @@ function Index() {
             </div>
             <div className="sidebar__block">
               <div className="sidebar__list">
-                <div className="sidebar__item">
-                  <a className="sidebar__link" xlinkHref="#">
-                    <img
-                      className="sidebar__img"
-                      src="img/playlist01.png"
-                      alt="day's playlist"
-                    />
-                  </a>
-                </div>
+                <PlayList />
                 <div className="sidebar__item">
                   <a className="sidebar__link" xlinkHref="#">
                     <img
