@@ -8,6 +8,7 @@ import "./components/PlayList.css";
 import "./components/Track.css";
 import "./components/TrackList.css";
 import "./components/SideBar.css";
+import "./components/TopHits100.css";
 
 import Index from "./App";
 

@@ -1,5 +1,6 @@
 import React from "react";
 import PlayList from "./PlayList";
+import TopHits100 from "./TopHits100";
 
 const SideBar = () => {
   return (
@@ -15,15 +16,8 @@ const SideBar = () => {
       <div className="sidebar__block">
         <div className="sidebar__list">
           <PlayList />
-          <div className="sidebar__item">
-            <a className="sidebar__link" xlinkHref="#">
-              <img
-                className="sidebar__img"
-                src="img/playlist02.png"
-                alt="day's playlist"
-              />
-            </a>
-          </div>
+          <TopHits100 />
+          
           <div className="sidebar__item">
             <a className="sidebar__link" xlinkHref="#">
               <img
