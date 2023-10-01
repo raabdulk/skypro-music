@@ -7,6 +7,7 @@ import "./components/NavMenu.css";
 import "./components/PlayList.css";
 import "./components/Track.css";
 import "./components/TrackList.css";
+import "./components/SideBar.css";
 
 import Index from "./App";
 
